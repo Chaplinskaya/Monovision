@@ -125,11 +125,11 @@ html {
 	text-align: left;
 	text-transform: uppercase;
 
-	@media screen and (max-width: 768px) {
+	@media (max-width: 768px) {
 		font-size: 48px;
 	}
 
-	@media screen and (max-width: 576px) {
+	@media (max-width: 576px) {
 		font-size: 26px;
 		line-height: 32px;
 	}
@@ -143,13 +143,13 @@ html {
 	line-height: 38.73px;
 	text-align: left;
 
-	@media screen and (max-width: 768px) {
+	@media (max-width: 768px) {
 		& {
 			margin-top: 80px;
 		}
 	}
 
-	@media screen and (max-width: 576px) {
+	@media (max-width: 576px) {
 		& {
 			margin-top: 30px;
 			font-size: 16px;
@@ -177,7 +177,7 @@ html {
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 
-	@media screen and (max-width: 576px) {
+	@media (max-width: 576px) {
 		font-size: 16px;
 		width: 120px;
 		min-height: 30px;
@@ -229,7 +229,7 @@ html {
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media (max-width: 768px) {
 		&::before {
 			display: none;
 		}
@@ -239,7 +239,7 @@ html {
 		margin-top: 230px;
 	}
 
-	@media screen and (max-width: 375px) {
+	@media (max-width: 375px) {
 		line-height: 18px;
 		font-size: 14px;
 		margin-top: 210px;
