@@ -221,30 +221,30 @@ html {
 }
 
 @media screen and (max-width: 768px) {
-	.promo__adres {
+	.promo__adress {
 		margin-top: 80px;
 	}
 
-	.promo__adres::before {
+	.promo__adress::before {
 		left: -40px;
 	}
 }
 
 @media (max-width: 768px) {
-	.promo__adres::before {
+	.promo__adress::before {
 		display: none;
 	}
 }
 
 @media screen and (max-width: 576px) {
-	.promo__adres {
+	.promo__adress {
 		margin-top: 230px;
 	}
 
 }
 
 @media (max-width: 375px) {
-	.promo__adres {
+	.promo__adress {
 		line-height: 18px;
 		font-size: 14px;
 		margin-top: 210px;
