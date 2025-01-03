@@ -322,15 +322,17 @@ html {
 		color: #a5a5a5;
 	}
 
-	@media screen and (max-width: 1440px) {
-		& {
-			width: 100%;
-			font-size: 32px;
-			line-height: normal;
-		}
+
+
+
+}
+
+@media screen and (max-width: 1440px) {
+	& {
+		width: 100%;
+		font-size: 32px;
+		line-height: normal;
 	}
-
-
 }
 
 @media(max-width: 375px) {
