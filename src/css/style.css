@@ -280,7 +280,7 @@ html {
 		}
 	}
 
-	@media screen and (max-width: 576px) {
+	@media (max-width: 576px) {
 		& {
 			margin-top: 10px;
 		}
@@ -295,7 +295,7 @@ html {
 	background-color: var(--light-color);
 	padding-top: 80px;
 
-	@media screen and (max-width: 376px) {
+	@media (max-width: 376px) {
 		padding-top: 50px;
 	}
 }
@@ -330,7 +330,7 @@ html {
 		}
 	}
 
-	@media screen and (max-width: 375px) {
+	@media(max-width: 375px) {
 		& {
 			font-size: 16px;
 			line-height: normal;
