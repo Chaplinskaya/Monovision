@@ -144,19 +144,19 @@ html {
 	text-align: left;
 
 	@media (max-width: 768px) {
-		& {
-			margin-top: 80px;
-		}
+		margin-top: 80px;
 	}
 
+
 	@media (max-width: 576px) {
-		& {
-			margin-top: 30px;
-			font-size: 16px;
-			line-height: 19px;
-		}
+
+		margin-top: 30px;
+		font-size: 16px;
+		line-height: 19px;
+
 	}
 }
+
 
 .btn {
 	display: flex;
@@ -267,27 +267,27 @@ html {
 		font-weight: 100;
 		line-height: 12.1px;
 	}
+}
 
-	@media screen and (max-width: 1440px) {
-		& {
-			padding: 0 20px;
-		}
+@media screen and (max-width: 1440px) {
+	.keywords {
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.keywords li:nth-last-child(-n+6) {
+		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.keywords {
+		margin-top: 10px;
 	}
 
-	@media screen and (max-width: 768px) {
-		& li:nth-last-child(-n+6) {
-			display: none;
-		}
-	}
-
-	@media (max-width: 576px) {
-		& {
-			margin-top: 10px;
-		}
-
-		& li:nth-last-child(-n+11) {
-			display: none;
-		}
+	.keywords li:nth-last-child(-n+11) {
+		display: none;
 	}
 }
 
@@ -321,14 +321,10 @@ html {
 	span {
 		color: #a5a5a5;
 	}
-
-
-
-
 }
 
 @media screen and (max-width: 1440px) {
-	& {
+	.about__text {
 		width: 100%;
 		font-size: 32px;
 		line-height: normal;
